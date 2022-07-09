@@ -1,0 +1,21 @@
+Circuit: * G:\My Drive\Projekty\elektronika\Dohle\Dohle Ray\simulation.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Apr 05 11:10:24 2022
+Total elapsed time: 0.256 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 38683
+traniter = 38652
+tranpoints = 12947
+accept = 8927
+rejected = 4020
+matrix size = 44
+fillins = 44
+solver = Normal
+Matrix Compiler1: 4.56 KB object code size  0.6/0.3/[0.3]
+Matrix Compiler2: 4.22 KB object code size  0.3/0.4/[0.3]
+
