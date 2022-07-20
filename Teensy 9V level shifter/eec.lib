@@ -1,0 +1,59 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Analog Devices AD5328BRUZ-REEL
+#
+DEF AD5328BRUZ-REEL U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "AD5328BRUZ-REEL" 0 300 50 H V L CNN 
+F2 "Analog_Devices-AD5328BRUZ-REEL-*" 0 400 50 H I L CNN 
+F3 "http://www.analog.com/static/imported-files/data_sheets/AD5308_5318_5328.pdf" 0 500 50 H I L CNN 
+F4 "MO-153-AB" 0 600 50 H I L CNN "Code  JEDEC"
+F5 "Manufacturer URL" 0 700 50 H I L CNN "Component Link 1 Description"
+F6 "http://www.analog.com/en/index.html" 0 800 50 H I L CNN "Component Link 1 URL"
+F7 "Package Specification" 0 900 50 H I L CNN "Component Link 3 Description"
+F8 "http://www.analog.com/static/imported-files/packages/36244347913743854010197452789RU16.pdf" 0 1000 50 H I L CNN "Component Link 3 URL"
+F9 "Product URL" 0 1100 50 H I L CNN "Component Link 4 Description"
+F10 "http://www.analog.com/en/digital-to-analog-converters/da-converters/ad5328/products/product.html" 0 1200 50 H I L CNN "Component Link 4 URL"
+F11 "Rev.F" 0 1300 50 H I L CNN "Datasheet Version"
+F12 "5.5V" 0 1400 50 H I L CNN "Max V"
+F13 "Surface Mount" 0 1500 50 H I L CNN "Mounting Technology"
+F14 "5mW" 0 1600 50 H I L CNN "Op Pwr Diss"
+F15 "16-Lead Thin Shrink Small Outline Package [TSSOP]" 0 1700 50 H I L CNN "Package Description"
+F16 "Nov-2002" 0 1800 50 H I L CNN "Package Version"
+F17 "Reel" 0 1900 50 H I L CNN "Packing"
+F18 "12" 0 2000 50 H I L CNN "Resolution Bits"
+F19 "6Âμs" 0 2100 50 H I L CNN "Settling Time"
+F20 "Yes" 0 2200 50 H I L CNN "Single Supply"
+F21 "8" 0 2300 50 H I L CNN "DAC Outputs"
+F22 "IC" 0 2400 50 H I L CNN "category"
+F23 "1099818" 0 2500 50 H I L CNN "ciiva ids"
+F24 "2fe9cd3c3c61c901" 0 2600 50 H I L CNN "library id"
+F25 "Analog Devices" 0 2700 50 H I L CNN "manufacturer"
+F26 "RU-16" 0 2800 50 H I L CNN "package"
+F27 "1387041108" 0 2900 50 H I L CNN "release date"
+F28 "Yes" 0 3000 50 H I L CNN "rohs"
+F29 "ADE7C203-D163-44B2-9197-E9A33B1C4051" 0 3100 50 H I L CNN "vault revision"
+F30 "yes" 0 3200 50 H I L CNN "imported"
+DRAW
+X ~LDAC~ 1 100 -500 100 R 40 40 1 1 I 
+X ~SYNC~ 2 100 -200 100 R 40 40 1 1 I 
+X VDD 3 100 -1200 100 R 40 40 1 1 W 
+X VOUTA 4 1300 0 100 L 40 40 1 1 U 
+X VOUTB 5 1300 -100 100 L 40 40 1 1 U 
+X VOUTC 6 1300 -200 100 L 40 40 1 1 U 
+X VOUTD 7 1300 -300 100 L 40 40 1 1 U 
+X VREFABCD 8 1300 -900 100 L 40 40 1 1 I 
+X VREFEFGH 9 1300 -1000 100 L 40 40 1 1 I 
+X VOUTE 10 1300 -400 100 L 40 40 1 1 U 
+X VOUTF 11 1300 -500 100 L 40 40 1 1 U 
+X VOUTG 12 1300 -600 100 L 40 40 1 1 U 
+X VOUTH 13 1300 -700 100 L 40 40 1 1 U 
+X GND 14 1300 -1200 100 L 40 40 1 1 W 
+X DIN 15 100 -100 100 R 40 40 1 1 I 
+X SCLK 16 100 0 100 R 40 40 1 1 I C
+S 200 100 1200 -1300 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "custom")(type "Legacy")(uri "${KIPRJMOD}/eec.lib")(options "")(descr ""))
+  (lib (name "mcp1826-adj")(type "Legacy")(uri "${KIPRJMOD}/MCP1826-ADJE_AT.lib")(options "")(descr ""))
+)
