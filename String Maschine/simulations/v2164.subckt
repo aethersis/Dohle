@@ -1,0 +1,11 @@
+.subckt v2164_amp VC Iin Iout VGND
+Rvcbot vcatt VGND 500
+Rvctop VC vcatt 4.5k
+BTEMPCO 0 vcint I=V(vcatt)*(1+(TEMP-25)*tempco) Rpar=1 Cpar=1n
+Visig 0 inmirr 0 Rser=1
+Binltp inmirr 0 I=Itail*(TANH(V(Iin,VGND)*19)) Cpar={1/(2*pi*2Meg)}
+BFB Iin 0 I=I(Visig)*0.5*(TANH(V(vcint)*17.5)+1) Cpar=10p
+BOUT Iout 0 I=-I(Visig)*0.5*(TANH(-V(vcint)*17.5)+1) + (uramp(V(iout)-0.1)-uramp(-V(iout)-0.1))/1 Cpar=10p
+Cparasitic Iout Iin 3.75p
+.param Itail=1500u tempco=-3.3m
+.ends v2164_amp
